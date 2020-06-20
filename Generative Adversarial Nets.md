@@ -1,87 +1,27 @@
 # Generative Adversarial Nets
 
-One Paragraph of project description goes here
+The GAN usually consists of two networks - a Generator(G) and a Discriminator(D). The idea is that the two networks play a minimax two-player game where, the goal of G is to create data capable of fooling D, and the goal of D is to not get fooled by G. If allowed to run for millions of iterations, the entire network reaches a very good understanding of the distribution of the data, and can replicate it.  
 
-## Getting Started
+## Adversarial Nets
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The idea is that we try to train D to maximize the probability of assigning the correct label to both training examples and generated examples. Furthermore, we train G to minimize log(1-D(G(z))). The two players play a minimax game with the value function V(G,D).
 
-### Prerequisites
+The authors also suggest that training the two networks in an iterative way leads to overfitting on small datasets. Instead, we train k steps of D and one step of optimizing G. Hence, D will remain around optimal as long as G changes slowly enough.
 
-What things you need to install the software and how to install them
+There are also a few proofs to support their claims. A simple summary is given below.
 
-```
-Give examples
-```
+### For fixed G, the optimal D is D* = p_data(x)/(p_data(x) + p_g(x))
 
-### Installing
+While training D, our goal is to maximize V(G,D). Just simplifying the "expected" terms to integral allows us to reach a very simple equation of alog(y) + blog(1-y). The value of y which maximizes this equation is a/(a+b) as long as a and b are both not equal to 0. Hence, we prove the above statement.
 
-A step by step series of examples that tell you how to get a development env running
+### The global minimum of the virtual training criterion C(G) is achieved if and only if p_g = p_data . At that point, C(G) achieves the value − log 4.
 
-Say what the step will be
+With a simple addition and subtraction of log(4), we can explain the same equation in terms of KL divergence. This can further be simplified to Jensen Shannon Divergence. The final equation we have is now -log(4) + 2.JSD(p_data||p_g). Since, JSD is a function in the range of 0-1. The minimum of this equation will occur when JSD gives a output of 0. This only happens when p_g = p_data. Hence, we have proved the above statement.
 
-```
-Give the example
-```
+## Proving Convergence of the Algorithm
 
-And repeat
+To the best of my knowledge, there is no proof which claims that neural networks converge at global optimum. However, its excellent performance in practice suggests that they are a reasonable model despite their lack of theoretical guarantees.
 
-```
-until finished
-```
+## Paper link
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf
