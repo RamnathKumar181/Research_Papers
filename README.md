@@ -14,3 +14,4 @@ Here is a short summary of the various research papers I have read so far:
 * An Adversarial Approach to Hard Triplet Generation - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/An%20Adversarial%20Approach%20to%20Hard%20Triplet%20Generation.md)
 * On the variance of the adaptive learning rate and beyond - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/On%20the%20variance%20of%20the%20adaptive%20learning%20rate%20and%20beyond.md)
 * You Only Look Once: Unified, Real-Time Object Detection - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/You%20Only%20Look%20Once:%20Unified%2C%20Real-Time%20Object%20Detection.md)
+* Learning Representations by back-propagating errors - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Learning%20Representations%20by%20back-propagating%20errors.md)
