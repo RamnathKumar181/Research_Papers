@@ -22,3 +22,4 @@ Here is a short summary of the various research papers I have read so far:
 * Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Grad-CAM:%20Visual%20Explanations%20from%20Deep%20Networks%20via%20Gradient-based%20Localization.md)
 * Dropout: A Simple Way to Prevent Neural Networks from Overfitting - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Dropout:%20A%20Simple%20Way%20to%20Prevent%20Neural%20Networks%20from%20Overfitting.md)
 * Reducing the dimensionality of data with neural networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Reducing%20the%20dimensionality%20of%20data%20with%20neural%20networks.md)
+* Deep Learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Deep%20Learning.md)
