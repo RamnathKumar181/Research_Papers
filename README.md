@@ -23,3 +23,4 @@ Here is a short summary of the various research papers I have read so far:
 * Dropout: A Simple Way to Prevent Neural Networks from Overfitting - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Dropout:%20A%20Simple%20Way%20to%20Prevent%20Neural%20Networks%20from%20Overfitting.md)
 * Reducing the dimensionality of data with neural networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Reducing%20the%20dimensionality%20of%20data%20with%20neural%20networks.md)
 * Deep Learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Deep%20Learning.md)
+* A Neural Algorithm of Artistic Style - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/A%20Neural%20Algorithm%20of%20Artistic%20Style.md)
