@@ -1,6 +1,6 @@
 # Deep Learning
 
-The authors create a crief review of the current deep learning methods and future research roadwork.
+The authors create a brief review of the current deep learning methods and future research roadwork.
 
 ## Supervised learning
 
@@ -23,7 +23,7 @@ tacular results, almost halving the error rates of the best competing approaches
 ## Distributed representations and language processing
 
 Deep-learning theory shows that deep nets have two different exponential advantages over classic learning algorithms that do not use distributed representations. Both of these advantages arise from the power of composition and depend on the underlying data-generating distribution having an appropriate componential structure. First, learning distributed representations enable generalization to new combinations of the values of learned features beyond those seen during training. Second, composing layers of representation in a deep net brings the potential for another exponential advantage(exponential in the depth). The hidden layers of a multilayer neural network learn to represent the network’s inputs in a way that makes it easy to predict the target outputs. The issue of representation lies at the heart of the debate between the logic-inspired and the neural-network-inspired paradigms for cognition. In the logic-inspired paradigm, an instance of a symbol is something for which the only property is that it is either identical or
-non-identical to other symbol instances. It has no internal structure that is relevant to its use; and to reason with symbols, they must be bound to the variables in judiciously chosen rules of inference. By contrast, neural networks just use big activity vectors, big weight matrices and scalar non-linearities to perform the type of fast ‘intui- tive’ inference that underpins effortless commonsense reasoning.
+non-identical to other symbol instances. It has no internal structure that is relevant to its use; and to reason with symbols, they must be bound to the variables in judiciously chosen rules of inference. By contrast, neural networks just use big activity vectors, big weight matrices and scalar non-linearities to perform the type of fast ‘intuitive’ inference that underpins effortless commonsense reasoning.
 
 ## Recurrent neural networks
 
