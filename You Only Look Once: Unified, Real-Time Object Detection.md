@@ -1,6 +1,6 @@
 # You Only Look Once: Unified, Real-Time Object Detection
 
-The paper's proposes a novel approach where the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
+The paper proposes a novel approach where the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
 
 ## Unified Detection
 
