@@ -28,3 +28,4 @@ Here is a short summary of the various research papers I have read so far:
 * Siamese Neural Networks for One-shot Image Recognition - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Siamese%20Neural%20Networks%20for%20One-shot%20Image%20Recognition.md)
 * Large-Scale Study of Curiosity-Driven Learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Large-Scale%20Study%20of%20Curiosity-Driven%20Learning.md)
 * Imagenet classification with deep convolutional neural networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Imagenet%20classification%20with%20deep%20convolutional%20neural%20networks.md)
+* Fooling automated surveillance cameras:adversarial patches to attack person detection - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Fooling%20automated%20surveillance%20cameras:adversarial%20patches%20to%20attack%20person%20detection.md)   
