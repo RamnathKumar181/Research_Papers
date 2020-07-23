@@ -15,7 +15,7 @@ L_tv = sqrt[((p_i,j − p_i+1,j)^2 + (p_i,j − p_i,j+1)^2]
 '''
 * Objectness score:- This loss is to minimize the object or class score outputted by the detector.
 
-We then use a simple weighted sum to calculate the total loss.
+We then use a simple weighted sum to calculate the total loss. These weights are trained using Adam Optimizer.
 
 ## Methodology
 
