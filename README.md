@@ -34,3 +34,4 @@ Here is a short summary of the various research papers I have read so far:
 * ChatPainter: Improving Text to Image Generation using Dialogue - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/ChatPainter:%20Improving%20Text%20to%20Image%20Generation%20using%20Dialogue.md)
 * Meta-graph: Few shot link prediction via meta learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Meta-graph:%20Few%20shot%20link%20prediction%20via%20meta%20learning.md)
 * Visualizing data using t-SNE - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Visualizing%20Data%20using%20t-SNE.md)
+* Semi-supervised classification with graph convolutional networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Semi-supervised%20classification%20with%20graph%20convolutional%20networks.md)
