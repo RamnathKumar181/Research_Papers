@@ -36,3 +36,4 @@ Here is a short summary of the various research papers I have read so far:
 * Visualizing data using t-SNE - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Visualizing%20Data%20using%20t-SNE.md)
 * Semi-supervised classification with graph convolutional networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Semi-supervised%20classification%20with%20graph%20convolutional%20networks.md)
 * La-MAML: Look-ahead Meta-Learning for Continual Learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/La-MAML:%20Look-ahead%20Meta-Learning%20for%20Continual%20Learning.md)
+* Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Model-Agnostic%20Meta-Learning%20for%20Fast%20Adaptation%20of%20Deep%20Networks.md)
