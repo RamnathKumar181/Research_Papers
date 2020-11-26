@@ -35,3 +35,4 @@ Here is a short summary of the various research papers I have read so far:
 * Meta-graph: Few shot link prediction via meta learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Meta-graph:%20Few%20shot%20link%20prediction%20via%20meta%20learning.md)
 * Visualizing data using t-SNE - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Visualizing%20Data%20using%20t-SNE.md)
 * Semi-supervised classification with graph convolutional networks - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/Semi-supervised%20classification%20with%20graph%20convolutional%20networks.md)
+* La-MAML: Look-ahead Meta-Learning for Continual Learning - [Click Here](https://github.com/RamnathKumar181/Research_Papers/blob/master/La-MAML:%20Look-ahead%20Meta-Learning%20for%20Continual%20Learning.md)
